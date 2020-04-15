@@ -1,5 +1,5 @@
 lines = []
-with open('input.txt') as inf:
+with open('dataset_3363_4.txt') as inf:
     [lines.append([int(score) for score in line.strip().split(';')[1:]]) for line in inf]
 
 with open('output.txt', 'w') as ouf:

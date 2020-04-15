@@ -1,4 +1,4 @@
-with open('input.txt') as inf:
+with open('dataset_3363_3.txt') as inf:
     textfile, matrix, i, d = [], [], 0, {}
     for line in inf:
         textfile.append(line.strip().split())
